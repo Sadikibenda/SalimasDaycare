@@ -62,8 +62,6 @@
 				                  <!-- social-list -->
                               <ul class="social-list">
                                  <li><a title="Facebook" href="#"><i class="fab fa-facebook"></i></a></li>
-                                 <li><a title="Twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-                                 <li><a title="Email" href="#"><i class="fas fa-envelope"></i></a></li>
                               </ul>
 				      </li>
                </ul>
@@ -257,7 +255,7 @@
             <!-- nav pills -->
             <div class="row">
                <div class="col-lg-7">
-                  <h3>Our facility</h3>
+                  <h3>Our facility <h4 style="color: red;">CCDF VOUCHER ACCEPTED</h4></h3>
                   <p> Our facility is a safe, nurturing, and engaging environment where children feel at home. Designed to promote learning and play, 
                      it provides everything needed for a child's growth and development.</p>
                      <li>Bright, stimulating indoor spaces for creative learning</li>
@@ -501,7 +499,9 @@
                   <div class="form-style" id="contact_form">
                      <!-- Contact Form -->
                      <!-- Form Starts -->
-                     <div class="form-group">
+                     <div class="form-group" >
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="eb82a023-6472-48be-8438-2c6dad565c8d">
                         <label>Name<span class="required">*</span></label>
                         <input type="text" name="name" class="form-control input-field" placeholder="" required="">                    
                         <label>Email<span class="required">*</span></label>
@@ -514,6 +514,7 @@
                         <button class="btn" id="submit_btn">
                         Send Message
                         </button>
+                        </form>
                      </div>
                      <!-- Contact results -->
                      <div id="contact_results"></div>
@@ -530,7 +531,9 @@
       <!-- Map  -->
       <div class="container-fluid">
          <!-- Map -->
-         <div id="map-canvas"></div>
+         <div id="map-canvas">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12252.544459219198!2d-86.2486528!3d39.8487826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1736526648407!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
       </div>
       <!--/container  -->
       <!-- footer  -->
@@ -551,9 +554,9 @@
                </div>
                <div class="col-lg-4">
                   <div class="social-networks">
-                     <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                     
                      <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-                     <a href="#" class="google"><i class="fab fa-google-plus"></i></a>
+                     
                   </div>
                   <a href="mailto:Salimamoussa1@email.com" class="btn btn2">Email us</a>
                </div>
