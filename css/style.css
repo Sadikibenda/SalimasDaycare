@@ -558,7 +558,7 @@ Last change:22 July 2021
 }
 /*=========================== What we offer ============================ */
  #what-we-offer {
-    background-image:url(../img/illustrations/bg_grass.png), url(../img/bgoffer.png);
+    background-image:url(../img/illustrations/bg_grass.png);
      background-repeat:repeat-x,no-repeat;
      background-position: bottom,95% 100%;
 }
@@ -1194,18 +1194,15 @@ Last change:22 July 2021
 
 /* =========================== Call to action ============================ */
  #call-to-action{
-     background-image:url(../img/illustrations/wave.png),url(../img/calltoaction.jpg);
+     background-image:url(../img/illustrations/wave.png),url(../img/Visit.png);
      background-size:auto,cover;
      background-attachment:scroll,fixed;
      background-position:top,center;
      background-repeat:repeat-x, no-repeat;
 }
 /*=========================== Contact ============================ */
- #contact{
-     background-image: url(../img/bgcontact.png);
-     background-repeat:no-repeat;
-     background-position:80% 100%;
-}
+
+
  .contact-icon {
      text-align: center;
      padding: 30px;
